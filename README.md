@@ -1,3 +1,3 @@
 # Aframe-Try
-npm install
+npm install  
 npm start
