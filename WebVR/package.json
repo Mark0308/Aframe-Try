@@ -1,0 +1,29 @@
+{
+  "name": "webvr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=7000",
+    "go": "npm run webpack",
+    "webpack": "webpack -d --watch",
+    "deploy": "ghpages",
+    "build": "webpack src/index.js main.js"
+  },
+  "devDependencies": {
+    "ghpages": "0.0.3",
+    "live-server": "^1.2.0",
+    "webpack": "^3.11.0"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-example",
+    "aframe-boilerplate",
+    "aframe-scene",
+    "webvr",
+    "vr"
+  ],
+  "dependencies": {
+    "aframe-click-drag-component": "^3.0.1"
+  }
+}
